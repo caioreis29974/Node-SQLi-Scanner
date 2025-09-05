@@ -1,0 +1,12 @@
+{
+  "name": "node-sqli-scanner",
+  "version": "1.0.0",
+  "description": "Mini SQL Injection scanner feito em Node.js para laboratórios de teste.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "CaioXyZ",
+  "license": "ISC"
+}
