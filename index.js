@@ -2,6 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 const readline = require('readline');
 const colors = require('colors');
+const CFonts = require('cfonts');
 
 const payloads = ["'", "' OR 1=1 --", '" OR 1=1 --'];
 
@@ -24,6 +25,17 @@ async function testURL(url) {
 }
 
 async function main() {
+    CFonts.say('Node-SQLi\nScanner', {
+        font: 'block',
+        align: 'center',
+        colors: ['red'],
+        background: 'transparent',
+        letterSpacing: 0,
+        lineHeight: 1,
+        space: false,
+        maxLength: 80
+    });
+
     if (!fs.existsSync('urls.txt')) {
         console.log('urls.txt file not found!'.red);
         process.exit(1);

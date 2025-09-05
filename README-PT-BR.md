@@ -16,7 +16,7 @@ Não use em sites reais sem autorização, pois isso é **ilegal**.
 - npm
 - Dependências:
   ```bash
-  npm install axios colors fs readline
+  npm install axios colors fs readline cfonts
 
 ---
 
