@@ -1,36 +1,36 @@
 # Node-SQLi-Scanner
 
-Mini SQL Injection scanner feito em Node.js para **laboratórios de teste**.  
-Esta ferramenta permite testar URLs e detectar possíveis vulnerabilidades SQLi usando payloads básicos.
+Mini SQL Injection scanner built in Node.js for **test labs**.
+This tool allows you to test URLs and detect potential SQLi vulnerabilities using basic payloads.
 
-## ⚠️ Aviso
+## ⚠️ Warning
 
-Este projeto é **apenas para aprendizado e testes em ambientes controlados** (labs, DVWA, bWAPP, Juice Shop).  
-Não use em sites reais sem autorização, pois isso é **ilegal**.
+This project is **only for learning and testing in controlled environments** (labs, DVWA, bWAPP, Juice Shop).
+Do not use it on real websites without authorization, as this is **illegal**.
 
 ---
 
-## 🛠️ Requisitos
+## 🛠️ Requirements
 
 - Node.js >= 14
 - npm
-- Dependências:
-  ```bash
-  npm install axios colors fs readline
+- Dependencies:
+```bash
+npm install axios colors fs readline
 
 ---
 
-## 🚀 Como usar
-1. Coloque suas URLs vulneráveis no arquivo urls.txt, uma por linha:
-   ```bash
-   http://testphp.vulnweb.com/listproducts.php?cat=1
-   http://demo.testfire.net/bank/login.aspx?uid=1
+## 🚀 How to use
+1. Place your vulnerable URLs in the urls.txt file, one per line:
+```bash
+http://testphp.vulnweb.com/listproducts.php?cat=1
+http://demo.testfire.net/bank/login.aspx?uid=1
 
-2. Rode o script:
-   ```bash
-   node index.js
+2. Run the script:
+```bash
+node index.js
 
-3. Confira o resultado colorido no terminal:
-- Vermelho → possível vulnerabilidade
-- Verde → seguro
-- Amarelo → erro ao testar
+3. Check the colored output in the terminal:
+- Red → possible vulnerability
+- Green → safe
+- Yellow → error while testing
