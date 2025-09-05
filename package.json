@@ -4,9 +4,10 @@
   "description": "Mini SQL Injection scanner feito em Node.js para laboratórios de teste.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["sql", "sqli", "scanner", "pentest", "nodejs", "redteam"],
   "author": "CaioXyZ",
-  "license": "ISC"
+  "license": "MIT"
 }
